@@ -36,6 +36,25 @@ uvicorn crud:app --reload
 7. Para rodar os testes, utilize:
 pytest
 
+### Alembic
+
+1. Criando uma Nova Migração
+Após realizar alterações nos modelos do seu banco de dados, gere uma nova migração com:
+
+alembic revision --autogenerate -m "Descrição da alteração"
+
+--autogenerate: Analisa as mudanças nos modelos e gera automaticamente as alterações necessárias.
+
+O arquivo de migração será criado na pasta alembic/versions.
+Atenção: Revise o arquivo gerado para garantir que todas as alterações estão corretas antes de aplicá-lo.
+
+
+4. Aplicando as Migrações
+Para atualizar seu banco de dados para a versão mais recente (aplicando todas as migrações pendentes), execute:
+
+alembic upgrade head
+
+
 
 ---
 
