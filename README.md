@@ -17,7 +17,7 @@ Esta é uma API para gerenciamento de empresas e obrigações acessórias, desen
 
 ### Configuração
 1. Clone o repositório:
-   git clone https://github.com/seu_usuario/api_empresa.git
+   git clone https://github.com/HenricoBzt/api_empresa.git
 
 2. Crie e ative o ambiente virtual
 
