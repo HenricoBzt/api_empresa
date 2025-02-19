@@ -24,8 +24,8 @@ Esta é uma API para gerenciamento de empresas e obrigações acessórias, desen
 3. Instale as dependências:
 pip install -r requirements.txt
 
-4. Crie um arquivo .env copiando o .env.example e configure as variáveis de ambiente:
-cp .env.example .env
+4. Crie um arquivo .env copiando o .env.exemple e configure as variáveis de ambiente:
+cp .env.exemple .env (adicionar o +psycopg2)
 
 5. Rode a aplicação:
 uvicorn crud:app --reload
